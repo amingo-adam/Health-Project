@@ -4,6 +4,8 @@
 
 @import "tailwindcss/utilities";
 
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Saira:ital,wght@0,100..900;1,100..900&display=swap");
+
 @media (max-width: 900px) {
   .hideOnMobile {
     display: none;
@@ -19,6 +21,9 @@ img {
   max-width: 100%;
   height: auto;
 }
-
-hr {
+.c-montserrat {
+  font-family: "Montserrat", sans-serif;
+}
+.c-saira {
+  font-family: "Saira", sans-serif;
 }
