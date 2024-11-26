@@ -1,0 +1,465 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
+    </style>
+  </head>
+  <body>
+    <nav class="bg-white px-7 lg:px-14">
+      <ul
+        class="sideBar text-sm fixed top-0 right-0 h-screen w-64 z-50 bg-[#FFFFFF33] hidden flex-col justify-start items-start backdrop-blur-md"
+      >
+        <li class="h-11 w-full" onclick="hideSideBar()">
+          <a href="#" class="h-full flex px-6 py-2 hover:bg-white w-full">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="26px"
+              viewBox="0 -960 960 960"
+              width="26px"
+              fill="#404040"
+            >
+              <path
+                d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"
+              />
+            </svg>
+          </a>
+        </li>
+        <li class="h-11 w-full">
+          <a class="h-full flex px-6 py-2 hover:bg-slate-400 w-full" href="#"
+            >About Us</a
+          >
+        </li>
+        <li class="h-11 w-full">
+          <a
+            class="h-full flex px-6 py-2 hover:bg-slate-400 w-full"
+            href="kidneyhealth.html"
+            >Kidney Health
+          </a>
+        </li>
+        <li class="h-11 w-full hover:border-b-indigo-500">
+          <a class="h-full flex px-6 py-2 w-full" href="#">Get Involved</a>
+        </li>
+        <li class="h-11 w-full">
+          <a class="h-full flex px-6 py-2 hover:bg-slate-400 w-full" href="#"
+            >News/Events</a
+          >
+        </li>
+        <li class="h-11 w-full">
+          <a class="h-full flex px-6 py-2 hover:bg-slate-400 w-full" href="#"
+            >Gallery</a
+          >
+        </li>
+        <li class="h-11 w-full">
+          <a class="h-full flex px-6 py-2 hover:bg-slate-400 w-full" href="#"
+            >Contact Us</a
+          >
+        </li>
+        <li class="h-11 w-full">
+          <a class="h-full flex px-6 py-2 hover:bg-slate-400 w-full" href="#"
+            >Blog</a
+          >
+        </li>
+      </ul>
+      <ul class="flex justify-end text-sm">
+        <li class="h-11 first:mr-auto">
+          <a class="h-full flex justify-center items-center pr-6 py-2" href="#"
+            ><img src="../Assets/Firm Health Logo 1 (3).png" alt=""
+          /></a>
+        </li>
+        <li class="h-11 hideOnMobile">
+          <a class="h-full flex justify-center items-center px-3 py-2" href="#"
+            >About Us</a
+          >
+        </li>
+        <li class="h-11 hideOnMobile">
+          <a class="h-full flex justify-center items-center px-3 py-2" href="#"
+            >Kidney Health</a
+          >
+        </li>
+        <li class="h-11 hideOnMobile">
+          <a
+            class="h-full flex justify-center items-center px-3 py-2"
+            href="kidneyhealth.html"
+            >Get Involved
+          </a>
+        </li>
+        <li class="h-11 hideOnMobile">
+          <a class="h-full flex justify-center items-center px-3 py-2" href="#"
+            >News/Events</a
+          >
+        </li>
+        <li class="h-11 hideOnMobile">
+          <a class="h-full flex justify-center items-center px-3 py-2" href="#"
+            >Gallery</a
+          >
+        </li>
+        <li class="h-11 hideOnMobile">
+          <a class="h-full flex justify-center items-center px-3 py-2" href="#"
+            >Contact Us</a
+          >
+        </li>
+        <li class="h-11 hideOnMobile">
+          <a class="h-full flex justify-center items-center px-3 py-2" href="#">
+            Blog</a
+          >
+        </li>
+        <li class="h-11" onclick="showSideBar()">
+          <a href="#" class="h-full flex justify-center items-center pl-6 py-2"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="24px"
+              viewBox="0 -960 960 960"
+              width="24px"
+              fill="#404040"
+            >
+              <path
+                d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"
+              /></svg
+          ></a>
+        </li>
+      </ul>
+    </nav>
+    <!-- FIGHT DISEASE -->
+    <section class="lg:h-screen bg-priamry py-12 md:py-32">
+      <div class="px-7 md:px-32 lg:px-16 grid lg:grid-cols-2 sm:grid-cols-1">
+        <div class="grid gap-5 md:gap-8">
+          <h1
+            class="text-white font-semibold text-2xl md:text-3xl leading-7 lg:text-4xl"
+          >
+            Join us in fighting kidney disease in all fronts
+          </h1>
+          <div>
+            <p
+              class="text-sm text-white opacity-70 sm:leading-5 font-normal lg:leading-8"
+            >
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Habitasse
+              magna aliquam neque, nunc sed hac nibh tempus sed. Quisque neque,
+              non morbi ut quam vitae non tellus quis. Eu nunc in sit posuere
+              mauris facilisis pharetra, ullamcorper lectus. Dictumst suscipit
+              eget interdum laoreet eget consequat sed id ornare. Eget
+              scelerisque rutrum in consectetur mi. Elementum non egestas urna
+              erat augue at facilisis condimentum adipiscing.
+            </p>
+          </div>
+          <div>
+            <button
+              class="px-8 py-2 mr-3 font-normal border-black bg-white text-priamry"
+            >
+              Learn More
+            </button>
+            <button class="px-6 py-2 font-normal bg-secondary text-white">
+              Donate
+            </button>
+          </div>
+        </div>
+        <div class="sm:hidden"></div>
+      </div>
+    </section>
+    <!-- ABOUT OUR FOUNDATION -->
+    <section class="grid lg:grid-cols-2">
+      <picture>
+        <source
+          media="(414px)"
+          srcset="../Assets/african-volunteer-woman-park-africa-volunteering-charity-people-ecology-concept 1 (1).png"
+        />
+        <img
+          src="../Assets/african-volunteer-woman-park-africa-volunteering-charity-people-ecology-concept 1 (2).png"
+          alt=""
+        />
+      </picture>
+      <div class="px-7 lg:grid items-center justify-center">
+        <div class="grid sm:px-2 sm:gap-4 mt-8 md:px-10 md:gap-8">
+          <h4 class="font-semibold text-lg text-priamry">
+            About Our Foundation
+          </h4>
+          <h3 class="text-2xl leading-7 font-semibold my-6 md:my-0">
+            Who Are We?
+          </h3>
+          <p class="font-normal text-sm text-[#404040] leading-9">
+            Firm Health Ghana Foundation (FHGF), is a voluntary,
+            non-governmental, non-partisan, non-profit, patient focused and
+            humanitarian organization interested in prevention of kidney disease
+            by early detection through screening and awareness creation through
+            education. It was registered with the Registrar General Department
+            of Ghana, under the company’s act 1963 (act 179) as a company
+            limited by guarantee in July 2012.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- OUR AIM -->
+    <section class="px-7 mt-20 grid">
+      <div class="grid gap-4 lg:mx-32">
+        <h4 class="font-semibold text-lg text-priamry text-center">Our Aim</h4>
+        <h3 class="text-2xl leading-7 font-semibold text-center">
+          What We Seek To Achieve
+        </h3>
+        <p class="font-normal text-sm text-[#404040] leading-9">
+          Firm Health Ghana Foundation (FHGF), is a voluntary, non-governmental,
+          non-partisan, non-profit, patient focused and humanitarian
+          organization interested in prevention of kidney disease by early
+          detection through screening and awareness creation through education.
+          It was registered with the Registrar General Department of Ghana,
+          under the company’s act 1963 (act 179) as a company limited by
+          guarantee in July 2012.
+        </p>
+      </div>
+      <div class="mt-5 lg:px-12">
+        <div
+          class="mt-3 grid gap-8 sm:grid-rows-4 justify-items-center lg:grid-cols-4"
+        >
+          <div class="brightness-75 hover:brightness-100 relative">
+            <img
+              src="../Assets/light-bulb-with-drawing-graph 1 (1).png"
+              alt=""
+            />
+            <div
+              class="absolute h-16 w-36 bg-priamry rounded-[35px] rounded-tr-[10px] rounded-br-[10px] right-0 top-[70%] z-30 flex items-center justify-start p-2"
+            >
+              <div
+                class="h-12 w-12 rounded-full bg-white flex items-center justify-center text-priamry text-5xl"
+              >
+                <p class="-mt-[10px]">+</p>
+              </div>
+            </div>
+          </div>
+          <div class="brightness-75 hover:brightness-100 relative">
+            <img
+              src="../Assets/light-bulb-with-drawing-graph 1 (1).png"
+              alt=""
+            />
+            <div
+              class="absolute h-16 w-36 bg-priamry rounded-[35px] rounded-tr-[10px] rounded-br-[10px] right-0 top-[70%] z-30 flex items-center justify-start p-2"
+            >
+              <div
+                class="h-12 w-12 rounded-full bg-white flex items-center justify-center text-priamry text-5xl"
+              >
+                <p class="-mt-[10px]">+</p>
+              </div>
+            </div>
+          </div>
+          <div class="brightness-75 hover:brightness-100 relative">
+            <img
+              src="../Assets/worker-drawing-diagram-success-with-three-steps 1 (1).png"
+              alt=""
+            />
+            <div
+              class="absolute h-16 w-36 bg-priamry rounded-[35px] rounded-tr-[10px] rounded-br-[10px] right-0 top-[70%] z-30 flex items-center justify-start p-2"
+            >
+              <div
+                class="h-12 w-12 rounded-full bg-white flex items-center justify-center text-priamry text-5xl"
+              >
+                <p class="-mt-[10px]">+</p>
+              </div>
+            </div>
+          </div>
+          <div class="brightness-75 hover:brightness-100 relative">
+            <img
+              src="../Assets/core-values-word-young-people 1 (1).png"
+              alt=""
+            />
+            <div
+              class="absolute h-16 w-36 bg-priamry rounded-[35px] rounded-tr-[10px] rounded-br-[10px] right-0 top-[70%] z-30 flex items-center justify-start p-2"
+            >
+              <div
+                class="h-12 w-12 rounded-full bg-white flex items-center justify-center text-priamry text-5xl"
+              >
+                <p class="-mt-[10px]">+</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- WHAT WE DO -->
+    <section class="sm:px-7 sm:mt-8 lg:px-0">
+      <div class="bg-[#EDFEFB] px-5 py-14 lg:grid grid-cols-2">
+        <div class="px-8 sm:px-16 sm:py-10">
+          <div class="grid gap-3">
+            <h4 class="font-semibold text-lg text-priamry">What We Do</h4>
+            <h3 class="text-2xl leading-7 font-semibold">
+              Services We Provide
+            </h3>
+            <p class="font-normal text-sm leading-7">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et
+              sagittis, bibendum in malesuada.
+            </p>
+          </div>
+          <div class="grid sm:grid-rows-4 mt-2 lg:grid-cols-2 gap-y-4 gap-x-2">
+            <div class="bg-[#9FE2C1] h-auto w-full grid px-5 py-4">
+              <div class="h-10 bg-white w-10 relative rounded-[25px]">
+                <img
+                  src="../Assets/Vector.png"
+                  alt=""
+                  class="absolute left-[7px] top-[7px]"
+                />
+              </div>
+              <h6 class="text-base leading-6 font-normal">
+                Blood Sugar Level Testing
+              </h6>
+              <p class="text-sm text-[#404040] leading-6 opacity-90 mb-0">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </p>
+            </div>
+            <div class="bg-[#9FE2C1] h-auto w-full grid px-5 py-4">
+              <div class="h-10 bg-white w-10 relative rounded-[25px]">
+                <img
+                  src="../Assets/band-aid (2).png"
+                  alt=""
+                  class="absolute left-[7px] top-[7px]"
+                />
+              </div>
+              <h6 class="text-base leading-6 font-normal">Kidney Screening</h6>
+              <p class="text-sm text-[#404040] leading-6 opacity-90 mb-0">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </p>
+            </div>
+            <div class="bg-[#9FE2C1] h-auto w-full grid px-5 py-4">
+              <div class="h-10 bg-white w-10 relative rounded-[25px]">
+                <img
+                  src="../Assets/medkit.png"
+                  alt=""
+                  class="absolute left-[7px] top-[7px]"
+                />
+              </div>
+              <h6 class="text-base leading-6 font-normal">Kidney Screening</h6>
+              <p class="text-sm text-[#404040] leading-6 opacity-90 mb-0">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </p>
+            </div>
+            <div class="bg-[#9FE2C1] h-auto w-full grid px-5 py-4">
+              <img src="../Assets/medical-drip (5).png" alt="" />
+              <h6 class="text-base leading-6 font-normal">
+                Weekly Public Health Radio Program
+              </h6>
+              <p class="text-sm text-[#404040] leading-6 opacity-90 mb-0">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="lg:py-10 lg:pl-7 hidden md:block">
+            <img
+              src="../Assets/medic-african-ethnicity-helping-sick-patient-clinic-hospital-ward-doctor-using-medical-equipment-technology-young-woman-healthcare-treatment-black-person-bed 1.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- GIVE HELP WHEN IS NEEDED -->
+    <section class="px-7 py-10 lg:grid lg:grid-cols-2 lg:px-14">
+      <picture>
+        <source
+          media="(414px)"
+          srcset="../Assets/group-happy-african-volunteers-hold-blank-board-park-africa-volunteering-charity-people-ecology-concept 1.png"
+        />
+        <img
+          src="../Assets/group-happy-african-volunteers-hold-blank-board-park-africa-volunteering-charity-people-ecology-concept 1 (3).png"
+          alt=""
+        />
+      </picture>
+
+      <div class="bg-priamry px-8 grid gap-3 py-8 lg:py-12 lg:px-12">
+        <h4 class="text-white uppercase leading-10 font-semibold text-lg">
+          GIVE HELP WHERE IT IS NEEDED THE MOST
+        </h4>
+        <p class="leading-9 text-white text-sm font-normal opacity-80">
+          There is an estimated 12,000 kidney failure cases are recorded among
+          Ghanaians every year. Across the globe, 10 percent of the population
+          is affected by preventable yet deadly kidney diseases. Chronic Kidney
+          Disease (CKD) was ranked 18th in the list of causes of total number of
+          deaths worldwide according to the 2010 Global Burden of Disease study.
+          The degree of movement up the list was second only to that for HIV and
+          AIDS. Join us in creating awareness in impoverished communities in
+          Ghana
+        </p>
+        <div>
+          <button class="px-6 py-2 font-normal bg-secondary text-white">
+            Donate
+          </button>
+        </div>
+      </div>
+    </section>
+    <!-- FOOTER -->
+    <footer class="bg-[#404040] px-5 lg:px-8">
+      <div class="py-16">
+        <div class="grid gap-6 lg:grid-cols-3">
+          <div class="grid gap-4">
+            <img src="../Assets/Firm Health Logo 1 (3).png" alt="" />
+            <p class="text-base leading-9 text-[#fff] opacity-3 pr-6">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et
+              sagittis, bibendum in malesuada.
+            </p>
+          </div>
+          <div></div>
+          <div class="grid gap-5 mb-16 mt-3">
+            <h5 class="text-white font-semibold">NewsLetter</h5>
+            <h6 class="text-white font-normal">Kindly Suscribe to us</h6>
+
+            <div>
+              <input
+                type="text"
+                name=""
+                id=""
+                placeholder="Enter your email "
+                class="px-2 py-2 text-center"
+              />
+              <button class="px-5 py-2 text-center bg-priamry">Suscribe</button>
+            </div>
+
+            <div class="w-52 grid grid-cols-4 gap-9">
+              <div class="h-12 w-12 relative bg-[#f5f5f5] rounded-[30px]">
+                <img
+                  src="../Assets/Vector (2).png"
+                  class="absolute left-[13px] top-[13px]"
+                />
+              </div>
+              <div class="h-12 w-12 relative bg-[#f5f5f5] rounded-[30px]">
+                <img
+                  src="../Assets/Vector (4).png"
+                  class="absolute left-[13px] top-[15px]"
+                />
+              </div>
+              <div class="h-12 w-12 relative bg-[#f5f5f5] rounded-[30px]">
+                <img
+                  src="../Assets/Vector (5).png"
+                  class="absolute left-[13px] top-[15px]"
+                />
+              </div>
+              <div class="h-12 w-12 relative bg-[#f5f5f5] rounded-[30px]">
+                <img
+                  src="../Assets/Vector (7).png"
+                  class="absolute left-[13px] top-[15px]"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr />
+        <p class="text-xs text-white text-center pt-5">
+          © 2022 Firm Health Ghana Foundation
+        </p>
+      </div>
+    </footer>
+
+    <!-- JAAVASCRIPT for navbar -->
+    <script>
+      showSideBar = () => {
+        const sideBar = document.querySelector(".sideBar");
+        sideBar.style.display = "flex";
+      };
+
+      hideSideBar = () => {
+        const sideBar = document.querySelector(".sideBar");
+        sideBar.style.display = "none";
+      };
+    </script>
+  </body>
+</html>

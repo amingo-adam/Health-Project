@@ -1,0 +1,24 @@
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
+
+@media (max-width: 900px) {
+  .hideOnMobile {
+    display: none;
+  }
+}
+@media (min-width: 900px) {
+  .c-hidden {
+    display: none;
+  }
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+hr {
+}
