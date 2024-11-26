@@ -27,3 +27,9 @@ img {
 .c-saira {
   font-family: "Saira", sans-serif;
 }
+.c-logos {
+  background-image: url("..\Assets\paper-textured-background 1 (1).png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
