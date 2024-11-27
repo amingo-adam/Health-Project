@@ -33,3 +33,18 @@ img {
   background-position: center;
   background-repeat: no-repeat;
 }
+
+@media (min-width: 900px) {
+  .c-footer {
+    display: grid;
+    grid-template-columns: 1fr 200px 1fr;
+  }
+}
+
+.links {
+  @apply h-[45px]  flex items-center justify-start text-left border-b-2 text-sm leading-[35px] font-normal text-white opacity-80;
+}
+
+.c-overlay {
+  @apply grid items-center justify-center;
+}
