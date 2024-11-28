@@ -48,3 +48,11 @@ img {
 .c-overlay {
   @apply grid items-center justify-center;
 }
+
+.c-text {
+  @apply font-normal text-sm leading-[35px] text-[#404040] text-center;
+}
+
+.c-card-head {
+  @apply text-4xl text-center text-priamry font-semibold;
+}

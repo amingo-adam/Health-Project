@@ -7,7 +7,7 @@
     <title>Document</title>
   </head>
   <body>
-    <nav class="bg-white px-7">
+    <nav class="bg-white px-7 lg:px-14">
       <ul
         class="sideBar text-sm fixed top-0 right-0 h-screen w-64 z-50 bg-[#FFFFFF33] hidden flex-col justify-start items-start backdrop-blur-md"
       >
@@ -38,10 +38,8 @@
             >Kidney Health
           </a>
         </li>
-        <li class="h-11 w-full">
-          <a class="h-full flex px-6 py-2 hover:bg-slate-400 w-full" href="#"
-            >Get Involved</a
-          >
+        <li class="h-11 w-full hover:border-b-indigo-500">
+          <a class="h-full flex px-6 py-2 w-full" href="#">Get Involved</a>
         </li>
         <li class="h-11 w-full">
           <a class="h-full flex px-6 py-2 hover:bg-slate-400 w-full" href="#"
@@ -71,25 +69,40 @@
           /></a>
         </li>
         <li class="h-11 hideOnMobile">
-          <a class="h-full flex justify-center items-center px-6 py-2" href="#"
+          <a class="h-full flex justify-center items-center px-3 py-2" href="#"
             >About Us</a
           >
         </li>
         <li class="h-11 hideOnMobile">
-          <a class="h-full flex justify-center items-center px-6 py-2" href="#"
-            >Gallery</a
+          <a class="h-full flex justify-center items-center px-3 py-2" href="#"
+            >Kidney Health</a
           >
         </li>
         <li class="h-11 hideOnMobile">
           <a
-            class="h-full flex justify-center items-center px-6 py-2"
+            class="h-full flex justify-center items-center px-3 py-2"
             href="kidneyhealth.html"
-            >Kidney health</a
+            >Get Involved
+          </a>
+        </li>
+        <li class="h-11 hideOnMobile">
+          <a class="h-full flex justify-center items-center px-3 py-2" href="#"
+            >News/Events</a
           >
         </li>
         <li class="h-11 hideOnMobile">
-          <a class="h-full flex justify-center items-center px-6 py-2" href="#"
-            >Blog</a
+          <a class="h-full flex justify-center items-center px-3 py-2" href="#"
+            >Gallery</a
+          >
+        </li>
+        <li class="h-11 hideOnMobile">
+          <a class="h-full flex justify-center items-center px-3 py-2" href="#"
+            >Contact Us</a
+          >
+        </li>
+        <li class="h-11 hideOnMobile">
+          <a class="h-full flex justify-center items-center px-3 py-2" href="#">
+            Blog</a
           >
         </li>
         <li class="h-11" onclick="showSideBar()">
@@ -110,10 +123,7 @@
     </nav>
     <section>
       <div class="relative">
-        <img
-          src="../Assets/closeup-diverse-people-joining-their-hands 1.png"
-          class="w-full"
-        />
+        <img src="../Assets/closeup-diverse-people-joining-their-hands 1.png" />
         <h2
           class="absolute top-[44%] left-[37%] font-bold text-2xl leading-6 text-white c-heading-montserrat"
         >
@@ -122,122 +132,129 @@
       </div>
     </section>
     <!-- SECOND SECTION -->
-    <section class="px-7 grid gap-8">
-      <!--WHAT AND WHERE -->
+    <section
+      class="px-7 lg:px-14 grid gap-8 lg:grid-cols-[70%,30%] lg:gap-4 lg:mb-6"
+    >
       <div>
-        <div class="mt-8 grid gap-5">
-          <h3 class="text-[17px] font-bold uppercase leading-6 c-montserrat">
-            What and where are the kidneys?
-          </h3>
-          <p class="font-light text-base leading-[39px] c-saira">
-            The kidneys are bean-shaped organs about the size of a fist. They
-            are located at the bottom of the rib cage at the back of the body.
-          </p>
-        </div>
-      </div>
-      <!-- WHAT THEY DO -->
-      <div>
-        <div class="grid gap-5">
-          <h2 class="text-[17px] font-bold uppercase leading-6 c-montserrat">
-            What do the kidneys do?
-          </h2>
-          <div class="pl-[7px]">
-            <ul
-              class="list-disc px-5 c-saira font-light text-base leading-[39px]"
-            >
-              <li>
-                Remove waste products (from the metabolism of the food we eat
-                and body cells).
-              </li>
-              <li>Remove excess fluid to balance fluid levels in the body.</li>
-            </ul>
+        <!--WHAT AND WHERE -->
+        <div>
+          <div class="mt-8 grid gap-5">
+            <h3 class="text-[17px] font-bold uppercase leading-6 c-montserrat">
+              What and where are the kidneys?
+            </h3>
+            <p class="font-light text-base leading-[39px] c-saira">
+              The kidneys are bean-shaped organs about the size of a fist. They
+              are located at the bottom of the rib cage at the back of the body.
+            </p>
           </div>
+        </div>
+        <!-- WHAT THEY DO -->
+        <div>
+          <div class="grid gap-5">
+            <h2 class="text-[17px] font-bold uppercase leading-6 c-montserrat">
+              What do the kidneys do?
+            </h2>
+            <div class="pl-[7px]">
+              <ul
+                class="list-disc px-5 c-saira font-light text-base leading-[39px]"
+              >
+                <li>
+                  Remove waste products (from the metabolism of the food we eat
+                  and body cells).
+                </li>
+                <li>
+                  Remove excess fluid to balance fluid levels in the body.
+                </li>
+              </ul>
+            </div>
 
-          <p class="font-light text-base leading-[39px] c-saira">
-            In addition to filtering the blood, the kidneys also:
-          </p>
-          <div class="pl-[7px]">
-            <ul
-              class="list-disc px-5 c-saira font-light text-base leading-[39px]"
-            >
-              <li>Help control blood pressure</li>
-              <li>
-                Produce hormones and chemicals which Help the production of red
-                blood cells
-              </li>
-              <li>Maintain healthy bone.</li>
-            </ul>
+            <p class="font-light text-base leading-[39px] c-saira">
+              In addition to filtering the blood, the kidneys also:
+            </p>
+            <div class="pl-[7px]">
+              <ul
+                class="list-disc px-5 c-saira font-light text-base leading-[39px]"
+              >
+                <li>Help control blood pressure</li>
+                <li>
+                  Produce hormones and chemicals which Help the production of
+                  red blood cells
+                </li>
+                <li>Maintain healthy bone.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- KIDNEY DISEASE -->
+        <div>
+          <div class="grid gap-5">
+            <h3 class="text-[17px] font-bold uppercase leading-6 c-montserrat">
+              Kidney Disease
+            </h3>
+            <p class="font-light text-base leading-[39px] c-saira">
+              Kidney disease describes a variety of conditions and disorders
+              that affect the kidneys. Most kidney disease attack the filtering
+              units of the kidneys—the nephrons—and damage their ability to
+              eliminate wastes and excess fluids. Kidney disease can range from
+              mild to severe and in some cases, lead to kidney failure
+              (sometimes referred to as end-stage kidney disease).
+            </p>
+          </div>
+        </div>
+        <!-- AKI -->
+        <div>
+          <div class="grid gap-5">
+            <h3 class="text-[17px] font-bold uppercase leading-6 c-montserrat">
+              What is acute kidney injury (AKI)?
+            </h3>
+            <p class="font-light text-base leading-[39px] c-saira">
+              Acute kidney injury (AKI), also known as acute renal failure
+              (ARF), is a sudden episode of kidney failure or kidney damage that
+              happens within a few hours or a few days. AKI causes a build-up of
+              waste products in your blood and makes it hard for your kidneys to
+              keep the right balance of fluid in your body. AKI can also affect
+              other organs such as the brain, heart, and lungs. Acute kidney
+              injury is common in patients who are in the hospital, in intensive
+              care units, and especially in older adults.
+            </p>
+          </div>
+        </div>
+        <!-- SIGNS AND SYMPOMS -->
+        <div>
+          <div class="grid gap-5">
+            <h3 class="text-[17px] font-bold uppercase leading-6 c-montserrat">
+              What are the signs and symptoms of acute kidney injury?
+            </h3>
+            <p class="font-light text-base leading-[39px] c-saira">
+              Signs and symptoms of acute kidney injury differ depending on the
+              cause and may include:
+            </p>
+            <div class="pl-7px">
+              <ul
+                class="list-disc px-4 c-saira font-light text-base leading-[39px]"
+              >
+                <li>Too little urine leaving the body</li>
+                <li>Swelling in legs, ankles, and around the eyes</li>
+                <li>Fatigue or tiredness</li>
+                <li>Shortness of breath</li>
+                <li>Confusion</li>
+                <li>Nausea</li>
+                <li>Seizures or coma in severe cases</li>
+                <li>Chest pain or pressure</li>
+              </ul>
+            </div>
+            <p class="font-light text-base leading-[39px] c-saira">
+              In some cases, AKI causes no symptoms and is only found through
+              other tests done by your healthcare provider.
+            </p>
           </div>
         </div>
       </div>
-      <!-- KIDNEY DISEASE -->
-      <div>
-        <div class="grid gap-5">
-          <h3 class="text-[17px] font-bold uppercase leading-6 c-montserrat">
-            Kidney Disease
-          </h3>
-          <p class="font-light text-base leading-[39px] c-saira">
-            Kidney disease describes a variety of conditions and disorders that
-            affect the kidneys. Most kidney disease attack the filtering units
-            of the kidneys—the nephrons—and damage their ability to eliminate
-            wastes and excess fluids. Kidney disease can range from mild to
-            severe and in some cases, lead to kidney failure (sometimes referred
-            to as end-stage kidney disease).
-          </p>
-        </div>
-      </div>
-      <!-- AKI -->
-      <div>
-        <div class="grid gap-5">
-          <h3 class="text-[17px] font-bold uppercase leading-6 c-montserrat">
-            What is acute kidney injury (AKI)?
-          </h3>
-          <p class="font-light text-base leading-[39px] c-saira">
-            Acute kidney injury (AKI), also known as acute renal failure (ARF),
-            is a sudden episode of kidney failure or kidney damage that happens
-            within a few hours or a few days. AKI causes a build-up of waste
-            products in your blood and makes it hard for your kidneys to keep
-            the right balance of fluid in your body. AKI can also affect other
-            organs such as the brain, heart, and lungs. Acute kidney injury is
-            common in patients who are in the hospital, in intensive care units,
-            and especially in older adults.
-          </p>
-        </div>
-      </div>
-      <!-- SIGNS AND SYMPOMS -->
-      <div>
-        <div class="grid gap-5">
-          <h3 class="text-[17px] font-bold uppercase leading-6 c-montserrat">
-            What are the signs and symptoms of acute kidney injury?
-          </h3>
-          <p class="font-light text-base leading-[39px] c-saira">
-            Signs and symptoms of acute kidney injury differ depending on the
-            cause and may include:
-          </p>
-          <div class="pl-7px">
-            <ul
-              class="list-disc px-4 c-saira font-light text-base leading-[39px]"
-            >
-              <li>Too little urine leaving the body</li>
-              <li>Swelling in legs, ankles, and around the eyes</li>
-              <li>Fatigue or tiredness</li>
-              <li>Shortness of breath</li>
-              <li>Confusion</li>
-              <li>Nausea</li>
-              <li>Seizures or coma in severe cases</li>
-              <li>Chest pain or pressure</li>
-            </ul>
-          </div>
-          <p class="font-light text-base leading-[39px] c-saira">
-            In some cases, AKI causes no symptoms and is only found through
-            other tests done by your healthcare provider.
-          </p>
-        </div>
-      </div>
+      <div class="bg-[#F8F9FD] h-[300px]">lkafhk</div>
     </section>
 
     <!-- FOOTER -->
-    <footer class="bg-[#404040] px-5 lg:px-8">
+    <!-- <footer class="bg-[#404040] px-5 lg:px-8">
       <div class="py-16">
         <div class="grid gap-6 lg:grid-cols-3">
           <div class="grid gap-4">
@@ -296,8 +313,96 @@
           © 2022 Firm Health Ghana Foundation
         </p>
       </div>
-    </footer>
+    </footer> -->
+    <footer class="bg-[#404040] px-5 lg:px-16">
+      <div class="py-16 lg:py-16">
+        <div class="grid gap-6 c-footer">
+          <div class="lg:pr-[115px] lg:none">
+            <img src="../Assets/Firm Health Logo 1 (3).png" alt="" />
+            <p
+              class="text-base leading-9 text-[#fff] opacity-3 pr-6 mt-4 lg:mt-6 opacity-80"
+            >
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et
+              sagittis, bibendum in malesuada.
+            </p>
+          </div>
+          <div class="hidden lg:block">
+            <div class="grid items-center justify-center">
+              <p class="text-white">Quick Links</p>
+              <ul class="mb-5">
+                <li class="links"><a>home</a></li>
+                <li class="links">
+                  <a href="#">About Us</a>
+                  <hr />
+                </li>
+                <li class="links"><a href="#">Kidney Health</a></li>
+                <li class="links"><a href="#">Get Involved</a></li>
+                <li class="links"><a href="#">News/Event</a></li>
+                <li class="links"><a href="#">Gallery</a></li>
+                <li class="links"><a href="#">Contact Us</a></li>
+                <li class="links"><a href="#">Blog</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="grid mb-16 mt-3 lg:items-start lg:justify-end lg:mt-0">
+            <div class="grid gap-4">
+              <h5 class="text-white font-semibold lg:mb-4 opacity-80">
+                NewsLetter
+              </h5>
+              <h6 class="text-white font-normal lg:mb-4 opacity-80">
+                Kindly Suscribe to us
+              </h6>
 
+              <div class="w-full lg:mb-4">
+                <input
+                  type="text"
+                  name=""
+                  id=""
+                  placeholder="Enter your email "
+                  class="px-2 py-2 text-left lg:px-6 rounded-[5px] opacity-80"
+                />
+                <button
+                  class="px-8 py-2 text-center bg-priamry lg:px-[20px] lg:py-2 lg:w-32 rounded-[5px] opacity-80"
+                >
+                  Suscribe
+                </button>
+              </div>
+
+              <div class="w-52 grid grid-cols-4 gap-9">
+                <div class="h-12 w-12 relative bg-[#f5f5f5] rounded-[30px]">
+                  <img
+                    src="../Assets/Vector (2).png"
+                    class="absolute left-[13px] top-[13px]"
+                  />
+                </div>
+                <div class="h-12 w-12 relative bg-[#f5f5f5] rounded-[30px]">
+                  <img
+                    src="../Assets/Vector (4).png"
+                    class="absolute left-[13px] top-[15px]"
+                  />
+                </div>
+                <div class="h-12 w-12 relative bg-[#f5f5f5] rounded-[30px]">
+                  <img
+                    src="../Assets/Vector (5).png"
+                    class="absolute left-[13px] top-[15px]"
+                  />
+                </div>
+                <div class="h-12 w-12 relative bg-[#f5f5f5] rounded-[30px]">
+                  <img
+                    src="../Assets/Vector (7).png"
+                    class="absolute left-[13px] top-[15px]"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr />
+        <p class="text-xs text-white text-center pt-5">
+          © 2022 Firm Health Ghana Foundation
+        </p>
+      </div>
+    </footer>
     <!-- JAVASCRIPT for nav -->
     <script>
       showSideBar = () => {
