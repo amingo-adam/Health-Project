@@ -56,3 +56,15 @@ img {
 .c-card-head {
   @apply text-4xl text-center text-priamry font-semibold;
 }
+
+.c-glass-card {
+  @apply h-60 w-[300px] backdrop-filter backdrop-blur-md bg-[rgba(255,255,255,0.15)] absolute px-8 py-8 grid   rounded-[5px];
+}
+
+.c-glass-text {
+  @apply c-saira text-white font-normal text-sm leading-[22px];
+}
+
+.c-glass-head {
+  @apply c-saira font-medium text-[17px] text-white;
+}
