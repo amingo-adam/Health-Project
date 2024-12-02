@@ -42,7 +42,7 @@ img {
 }
 
 .links {
-  @apply h-[45px]  flex items-center justify-start text-left border-b-2 text-sm leading-[35px] font-normal text-white opacity-80;
+  @apply h-[45px]  flex items-center justify-start text-left border-b-2 text-sm leading-[35px] font-normal text-black opacity-80;
 }
 
 .c-overlay {
@@ -67,4 +67,8 @@ img {
 
 .c-glass-head {
   @apply c-saira font-medium text-[17px] text-white;
+}
+
+.c-profile {
+  @apply h-48 w-48 bg-white rounded-[100px] shadow-lg shadow-gray-950 grid items-center justify-center;
 }
